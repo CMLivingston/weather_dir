@@ -1,0 +1,32 @@
+This file provides information on testing procedures and how I went about testing the weather files: weather.c and the excecutable file "weather".
+
+Successful usage of weather:
+
+[hooker:Lab3] 128) weather KLEB
+ 
+Credit: NOAA's National Weather Service
+Location: Lebanon, Lebanon Municipal Airport, NH
+Station ID: KLEB
+Last Observation: Last Updated on Jan 25 2015, 8:53 pm EST
+Weather: Fair
+Temperature: 10.0 F (-12.2 C)
+Relative Humidity: 61
+Weather: Northeast at 5.8 MPH (5 KT)
+Miles of Visibility: 10.00
+
+
+Error and misuse handling:
+
+[hooker:Lab3] 131) weather
+Error: Need a NOAA 4 capital letter code.
+[hooker:Lab3] 132) weather KKKK
+ERROR: Reporting station unavailable at this time
+[hooker:Lab3] 133) Weather KVNN
+-bash: Weather: command not found
+
+[hooker:Lab3] 134) weather KVNN
+ERROR: Reporting station unavailable at this time
+[hooker:Lab3] 135) weather KBNNG
+Error: Input format should be a NOAA 4 capital letter code.
+[hooker:Lab3] 136) weather KVNN KLEB
+Error: Please enter only one argument.
