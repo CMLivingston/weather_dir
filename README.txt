@@ -1,5 +1,7 @@
 Description: C application that curls weather data from a NOAA station and prints it to standart output.
 
+Author: Chris Livingston
+
 This file explains special notes and assumptions made about relevant files and inputs.
 
 
