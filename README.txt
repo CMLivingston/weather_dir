@@ -27,5 +27,4 @@ There must be one and only one code and it must be a valid 4 capital letter stat
 
 
 Assumptions:
-
-I am assuming that the weather files are compiled and executed on a Linux machine. 
+n/a
